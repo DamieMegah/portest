@@ -256,7 +256,7 @@ nav a:focus i{
     border:.2px ridge var(--transparent);
     background: var(--transparent);
     border-radius: 3rem;
-    display:none;
+    
 }
 
 .body h1{
@@ -734,6 +734,7 @@ nav a:focus i{
     border-radius: 3rem;
     overflow:scroll;
     overflow-wrap:wrap;
+    display:none;
 }
 
 
@@ -827,6 +828,7 @@ nav a:focus i{
     border-radius: 3rem;
     overflow:scroll;
     overflow-wrap:wrap;
+    display:none;
 }
 
 
@@ -895,6 +897,7 @@ nav a:focus i{
     border-radius: 3rem;
     overflow:scroll;
     overflow-wrap:wrap;
+    display:none;
 }
 
 
@@ -962,8 +965,5 @@ nav a:focus i{
 
 
 
-.portfolio, .service{
-    display: none;
-}
 
 }
