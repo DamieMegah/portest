@@ -1965,36 +1965,29 @@ position: absolute;
 top: -2.5rem;
 font-size: 2rem;
 -webkit-text-fill-color:transparent;
--webkit-text-stroke: 1px white;
+-webkit-text-stroke: 1px var(--black);
 }
 
 
-.body .info .skill i{
-    position: absolute;
-    top: -2.5rem;
-    font-size: 2rem;
-    -webkit-text-fill-color:transparent;
-    -webkit-text-stroke: 1px white;
-}
 
 
 .body .info button{
     padding: 1rem 3rem;
-    border: .1px ridge white;
+    border: .1px ridge var(--black);
     margin-top: 1rem;
     border-radius: 0;
     font-size: 1.4rem;
     font-weight: bold;
     background: transparent;
     -webkit-text-fill-color:transparent;
-    -webkit-text-stroke: .6px white;
+    -webkit-text-stroke: .6px var(--black);
     cursor: pointer;
 
 }
 
 .body .info button:hover{
-     background-color: white;
-    -webkit-text-fill-color:black;
+     background-color: var(--black);
+    -webkit-text-fill-color:var(--white);
     -webkit-text-stroke: .8px rgb(2, 2, 2);
 }
 
